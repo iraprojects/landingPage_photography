@@ -17,9 +17,9 @@
 
     <nav>
       <ul class="nav-ul-links">
-        <li><a href="#">About me</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -47,41 +47,36 @@
 
   <section class="section services-section">
     <div class="wrap-title-section">
-      <h2>Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
     </div>
 
     <div class="wrap-services-section">
-      <a href="#contact" class=" item-services-section">
-        <img src="img/free-photo-of-animal-africa-leon-depredador.jpeg" alt="">
-        
-      </a>
-      <a href="" class=" item-services-section">
-        <img src="img/pexels-photo-1057366.jpeg" alt="">
-        
-      </a>
-      <a href="" class=" item-services-section">
-        <img src="img/pexels-photo-13416942.jpeg" alt="">
-        
-      </a>
-      <a href="" class=" item-services-section">
-        <img src="img/pexels-photo-5504905.jpeg" alt="">
-        
-      </a>
-      <a href="" class=" item-services-section">
-        <img src="img/pexels-photo-9405800.jpeg" alt="">
-        
-      </a>
-      <a href="" class=" item-services-section">
-        <img src="img/pexels-photo-8011314.jpeg" alt="">
-        
-      </a>
+      <img class=" item-services-section" src="img/free-photo-of-animal-africa-leon-depredador.jpeg" alt="">
+
+      <img class=" item-services-section" src="img/pexels-photo-1057366.jpeg" alt="">
+
+      <img class=" item-services-section" src="img/pexels-photo-13416942.jpeg" alt="">
+
+      <img class=" item-services-section" src="img/pexels-photo-5504905.jpeg" alt="">
+
+      <img class=" item-services-section" src="img/pexels-photo-9405800.jpeg" alt="">
+
+      <img class=" item-services-section" src="img/pexels-photo-8011314.jpeg" alt="">
+
     </div>
 
   </section>
 
+  <section id="modal" class="services-modal hidden-modal">
+    <div class="wrap-modal-gallery">
+      <img id="img-modal" src="" alt="">
+      <button id="btn-close-modal">X</button>
+    </div>
+  </section>
+
   <section class="section two-colum-section">
     <div class="wrap-title-section">
-      <h2>About me</h2>
+      <h2 id="about">About me</h2>
     </div>
 
     <div class="wrap-two-column">
@@ -180,6 +175,7 @@
 
   </footer>
 
+  <script src="script.js"></script>
 </body>
 
 </html>
